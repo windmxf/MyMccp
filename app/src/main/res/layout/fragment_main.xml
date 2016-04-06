@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.max.mymccp.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+   <GridView
+       android:id="@+id/grid"
+       android:layout_width="match_parent"
+       android:layout_height="520dp"
+       android:numColumns="19"
+       >
+   </GridView>
+    <Button android:id="@+id/reset"
+        android:layout_below="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
